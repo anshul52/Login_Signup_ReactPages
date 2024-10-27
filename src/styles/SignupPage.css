@@ -1,0 +1,86 @@
+#main {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #1c1c1c;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+}
+.bothparts {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#rightinsidebox {
+  height: 100%;
+  width: 80%;
+}
+#rightinsidebox h1 {
+  margin-bottom: 20px;
+}
+#imgbox {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: end;
+  padding: 20px;
+  padding-left: 40px;
+  background-size: cover;
+  border-radius: 15px;
+  color: #fff;
+  background-image: url("https://images.unsplash.com/photo-1605478328994-f93e98217da7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#imgbox h1 {
+  font-size: 55px;
+  color: #fff;
+}
+#imgbox h1 {
+  font-size: 55px;
+}
+a {
+  color: #6e54b5;
+}
+#h11 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#butt {
+  background-color: #1c1c1c;
+  width: 100%;
+  border-radius: 55px;
+  border: navajowhite;
+  padding: 14px 0 14px 0;
+  margin-top: 15px;
+}
+#ForgetPassword {
+  width: 100%;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+}
+#ForgetPassword a {
+  color: #3783fc;
+}
+#backpara {
+  font-size: 25px;
+}
+
+.inputid {
+  margin-bottom: 20px;
+}
+#para {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}

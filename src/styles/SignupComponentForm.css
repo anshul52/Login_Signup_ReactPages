@@ -1,0 +1,77 @@
+.signup-form {
+  width: 100%;
+  padding: 20px;
+  overflow-y: scroll;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.custom-scrollbar {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group select {
+  background-color: #f5f5f5;
+  border: 2px solid #b5b2b2;
+  outline: #b5b2b2;
+  width: 100%;
+  color: #1c1c1c;
+  padding: 14px 0 14px 14px;
+  border-radius: 15px;
+}
+
+.form-group input.error-input,
+.form-group select.error-input {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00cc99;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #00b38f;
+}
+.account-type {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.account-type label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.password-field {
+  width: 100%;
+  text-align: right;
+}
+.password-field button {
+  font-size: 12px;
+  padding-top: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
