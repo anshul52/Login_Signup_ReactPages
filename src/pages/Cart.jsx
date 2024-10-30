@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
 
